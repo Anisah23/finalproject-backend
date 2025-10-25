@@ -9,6 +9,8 @@ def safe_commit():
         db.session.rollback()
         return False
 
+
+
 def get_or_404(model, id):
     return model.query.get_or_404(id)
 
