@@ -4,6 +4,20 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+flask = "==2.3.3"
+flask-restful = "==0.3.10"
+flask-sqlalchemy = "*"
+flask-jwt-extended = "==4.5.3"
+flask-marshmallow = "==0.15.0"
+marshmallow-sqlalchemy = "==0.29.0"
+psycopg2-binary = "*"
+python-dotenv = "*"
+sendgrid = "==6.10.0"
+cloudinary = "==1.36.0"
+stripe = "==7.4.0"
+bcrypt = "==4.0.1"
+flask-cors = "==4.0.0"
+flask-migrate = "*"
 
 [dev-packages]
 
